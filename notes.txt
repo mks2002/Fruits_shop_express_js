@@ -1,0 +1,49 @@
+ npm run start 
+    for node index....
+
+ npm run dev.... 
+    for running the nodemon version which will automatically gey refreshed after any change in the code....
+
+
+ this is the modifying package.json for running the nodemon......
+
+ {
+  "name": "vegetable_shop_multipage_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "mayuk",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
+
+
+this is the originally created package.json which have to modify for running the nodemon....
+
+{
+  "name": "vegetable_shop_multipage_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mayuk",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
+
