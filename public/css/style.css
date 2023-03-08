@@ -632,8 +632,16 @@ section {
 
 
 
+/* this one part of css is used in each page except the index.html page.. */
+.banner_section .banner_content h1 {
+   margin-top: 17rem;
+   font-weight: 600;
+}
 
-
+.banner_section .banner_content.index h1{
+   font-weight: 600;
+   margin-top: 1rem!important;
+}
 
 
 /* about us page css...... */
@@ -648,6 +656,19 @@ section {
    color: var(--primary-text);
    font-size: 1.5rem;
    font-weight: 500;
+}
+
+
+.about_section .section-title {
+   margin-top: 1.5rem;
+   font-size: 5.5rem;
+   font-weight: 800;
+}
+
+.about_section .section-subtitle {
+   font-size: 2.6rem;
+   font-weight: 600;
+   color: rgb(36, 166, 36);
 }
 
 /* products page css... */
@@ -668,14 +689,50 @@ section {
    height: 50vh;
 }
 
+
+.product_section .section-title {
+   margin-top: 1.5rem;
+   font-size: 5.5rem;
+   font-weight: 800;
+}
+
+.product_section .section-subtitle {
+   font-size: 2.6rem;
+   font-weight: 600;
+   color: rgb(36, 166, 36);
+}
+
 /* gallery page css... */
 
+.gallery_section .section-title {
+   margin-top: 1.5rem;
+   font-size: 5.5rem;
+   font-weight: 800;
+}
+
+.gallery_section .section-subtitle {
+   font-size: 2.6rem;
+   font-weight: 600;
+   color: rgb(36, 166, 36);
+}
 /* for gallery page there is no need of any extra css becaause we already make it in home page and here we just paste it from home page.. */
 
 
 
 
 /* contact page css.. */
+
+.contact_sectioin .section-title {
+   margin-top: 1.5rem;
+   font-size: 5.5rem;
+   font-weight: 800;
+}
+
+.contact_sectioin .section-subtitle {
+   font-size: 2.6rem;
+   font-weight: 600;
+   color: rgb(36, 166, 36);
+}
 
 .contact-form {
    background-color: var(--light-color);
